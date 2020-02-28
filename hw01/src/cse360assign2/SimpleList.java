@@ -81,7 +81,7 @@ public void remove(int input) {
 	int eCount = ((list.length/4) * 3);
 	if((count <= eCount) && (list.length != 1)) {
 		
-		int fity = (list.length - 1);
+		int fity = ((list.length * 3)/ 4);
 		int[] temp = new int[fity];
 		for(int element = 0; element < count; element++) {
 			temp[element] = list[element];
